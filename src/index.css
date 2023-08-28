@@ -1,0 +1,59 @@
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #4a90e2;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #3574ac;
+}
+
+body {
+  scrollbar-gutter: stable;
+}
+
+/* Firefox scrollbar customization */
+/* You can adjust these styles to your preferences */
+body {
+  scrollbar-width: thin;
+  scrollbar-color: #4a90e2 #f0f0f0;
+
+}
+
+body::-webkit-scrollbar-track {
+  background: #f0f0f0;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #4a90e2;
+  border-radius: 4px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #3574ac;
+}
+
+.tab {
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.active-tab {
+  background-color: #fff;
+  color: #000;
+}
+
+@media (max-width: 640px) {
+  .tab {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+}
+
+
+
